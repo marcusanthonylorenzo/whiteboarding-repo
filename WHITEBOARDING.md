@@ -17,6 +17,7 @@ output: boolean
 
 ***/
 
+```
 
 const checkString = (string) => {
   for (let i = 0; i < string.length; i++) {
@@ -29,4 +30,7 @@ const checkString = (string) => {
   }
 }
 checkString();
+
+
+```
 
