@@ -1,7 +1,7 @@
 ## This is where I will do the majority of my whiteboarding, hopefully it is clean and accessible this way.
 
 Question 1: Turning Strings to URLs
-
+```
 const stringToURL = (string) => {
 
   //split this guy
@@ -23,3 +23,17 @@ const stringToURL = (string) => {
   return newArray.join("");
 }
 stringToURL();
+```
+
+Question 2: Array Deduping
+```
+const deduper = (arrayToDedupe) => {
+  const clonedArray = arrayToDedupe
+  for (const items in arrayToDedupe) {
+    for (const cloneItems in clonedArray){
+      items === cloneItems ? arrayToDedupe.splice(
+    }
+  }
+}
+
+```
