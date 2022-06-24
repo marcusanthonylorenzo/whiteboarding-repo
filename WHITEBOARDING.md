@@ -28,9 +28,9 @@ stringToURL();
 Question 2: Array Deduping
 ```
 const deduper = (arrayToDedupe) => {
-  const clonedArray = arrayToDedupe
+<!--   const clonedArray = arrayToDedupe
   for (const items in arrayToDedupe) {
-    for (const cloneItems in clonedArray){
+    for (const cloneItems in clonedArray){ -->
       items === cloneItems ? arrayToDedupe.splice(
     }
   }
